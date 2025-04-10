@@ -7,7 +7,7 @@ export default function Home() {
         <nav className="flex items-center justify-evenly space-x-6 mt-5">
           <div className="flex items-center justify-evenly">
             <ul>
-              <a href="/" className="border-2 border-white font-extrabold px-5 py-3">Narmeen</a>
+              <Link href="/" className="border-2 border-white font-extrabold px-5 py-3">Narmeen</Link>
               <Link href="/" className="p-2">Products</Link>
               <Link href="/" className="p-2">Services</Link>
               <Link href="/" className="p-2">Pricing</Link>
