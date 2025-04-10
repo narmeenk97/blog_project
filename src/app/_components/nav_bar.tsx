@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function NavBar() {
     return (
         <header className="text-white">
-          <nav className="flex items-center justify-between px-4 mt-5">
+          <nav className="flex flex-row md:fles-col items-start md:items-center justify-between px-4 mt-5">
             <div>
-              <ul className="flex items-center space-x-6">
+              <ul className="flex flex-row md:fles-col items-start md:items-center md:space-y-0 md:space-x-6">
             <li>
               <div className="relative inline-block text-left">
                   <button type="button" className="inline-flex w-full justify-center gap-x-1.5 rounded-md border-2 border-white font-extrabold px-5 py-3" aria-expanded="true" aria-haspopup="true">
