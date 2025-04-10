@@ -1,11 +1,10 @@
-import Link from "next/link";
 import React from "react";
 
 export default function Intro() {
     return(
         <div className="flex flex-col md:flex-row items-center justify-center text-white px-4 mt-12">
             <div className="mr-4 px-5 py-3 w-1/2">
-                <h1 className="text-blue-400">Welcome to Narmeen's Blog</h1>
+                <h1 className="text-blue-400">Welcome to Narmeen&apos;s Blog</h1>
                 <p className="text-4xl py-4 font-bold">Learning Tailwind CSS</p>
                 <form className="max-w-sm">
                     <div className="">
