@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function NavBar() {
     return (
         <header className="text-white">
-          <nav className="flex flex-row md:fles-col items-start md:items-center justify-between md:justify-evenly px-4 mt-5">
+          <nav className="flex flex-row md:flex-row items-start md:items-center justify-between md:justify-evenly px-4 mt-5">
             <div>
               <ul className="flex flex-row md:fles-col items-start md:items-center md:space-y-0 md:space-x-6">
             <li>
@@ -41,7 +41,7 @@ export default function NavBar() {
                 <div className="relative inline-block text-left">
                   <button type="button" className="inline-flex w-full justify-center gap-x-1.5 px-2 pl-2">Resources
                     <svg className="-mr-1 size-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-                      <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                      <path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
                     </svg>
                   </button>
                 </div>
