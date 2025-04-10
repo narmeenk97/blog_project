@@ -3,11 +3,11 @@ import Link from "next/link";
 export default function NavBar() {
     return (
         <header className="text-white">
-          <nav className="flex flex-row md:flex-row items-start md:items-center justify-between md:justify-evenly px-4 mt-5">
+          <nav className="flex flex-col md:flex-row items-start md:items-center justify-between px-4 mt-5">
             <div>
-              <ul className="flex flex-row md:fles-col items-start md:items-center md:space-y-0 md:space-x-6">
+              <ul className="flex flex-col md:flex-row items-start md:items-center space-y-2 md:space-y-0 md:space-x-6">
             <li>
-              <div className="relative inline-block text-left">
+              <div>
                   <button type="button" className="inline-flex justify-center gap-x-1.5 rounded-md border-2 border-white font-extrabold px-5 py-3" aria-expanded="true" aria-haspopup="true">
                     Narmeen
                   <svg className="-mr-1 size-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Intro() {
     return(
-        <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center text-white px-4 mt-12 w-3/4 mx-auto">
+        <div className="flex flex-col md:flex-row items-start justify-center text-white px-4 mt-12 w-3/4 mx-auto">
             <div className="mr-4 px-5 py-3">
             {/* eslint-disable-next-line react/no-unescaped-entities */}
                 <h1 className="text-blue-400">Welcome to Narmeen&apos;s Blog</h1>
@@ -17,9 +17,9 @@ export default function Intro() {
                     <span className="underline">privacy policy.</span>
                 </p>
             </div>
-            <div className="mr-4 px-5 py-3 items-start">
-                <h1 className="text-blue-400 px-6 py-2 mb-3 mr-3 mt-4 text-lg md:text-2xl">Subscribe to my blog to keep up with the projects I am working on currently.</h1>
-                <p className="text-blue-200 px-6 py-2 mb-3 mr-3 mt-4 text-md md:text-lg">This is a purely front-end project for me to develop my skills in Tailwind CSS.</p>
+            <div className="px-5 py-3 items-start">
+                <h1 className="text-blue-400 py-2 mb-3 text-lg md:text-2xl">Subscribe to my blog to keep up with the projects I am working on currently.</h1>
+                <p className="text-blue-200 py-2 mb-3 text-md md:text-lg">This is a purely front-end project for me to develop my skills in Tailwind CSS.</p>
             </div>
         </div>
     )
